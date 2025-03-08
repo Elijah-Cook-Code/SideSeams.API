@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SideSeams.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f996d16e2bfffb62e934ec5fcc24cbd68cf4ef7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SideSeams.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SideSeams.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
