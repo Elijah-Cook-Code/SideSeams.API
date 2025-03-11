@@ -7,7 +7,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SideSeams.API.DTOs.ClientInfoDto, SideSeams.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "SideSeams.API.Controllers.ClientController",
@@ -18,8 +28,65 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "client",
-        "Type": "SideSeams.Data.Models.ClientInfo",
+        "Name": "clientDto",
+        "Type": "SideSeams.API.DTOs.ClientInfoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SideSeams.API.DTOs.ClientInfoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SideSeams.API.Controllers.ClientController",
+    "Method": "GetClientById",
+    "RelativePath": "api/Client/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SideSeams.API.DTOs.ClientInfoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SideSeams.API.Controllers.ClientController",
+    "Method": "UpdateClient",
+    "RelativePath": "api/Client/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "clientDto",
+        "Type": "SideSeams.API.DTOs.ClientInfoDto",
         "IsRequired": true
       }
     ],
@@ -27,9 +94,9 @@
   },
   {
     "ContainingType": "SideSeams.API.Controllers.ClientController",
-    "Method": "GetClientById",
+    "Method": "DeleteClient",
     "RelativePath": "api/Client/{id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

@@ -168,3 +168,4 @@ C:\code you projects\SideSeams.API\obj\Debug\net8.0\refint\SideSeams.API.dll
 C:\code you projects\SideSeams.API\obj\Debug\net8.0\SideSeams.API.pdb
 C:\code you projects\SideSeams.API\obj\Debug\net8.0\SideSeams.API.genruntimeconfig.cache
 C:\code you projects\SideSeams.API\obj\Debug\net8.0\ref\SideSeams.API.dll
+C:\code you projects\SideSeams.API\obj\Debug\net8.0\SideSeams.API.sourcelink.json
